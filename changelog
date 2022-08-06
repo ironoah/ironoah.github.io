@@ -1,3 +1,9 @@
 2022-08-06  Neumann <neumann@LAPTOP-VJRFGO2P>
 
 	* create this file 
+	* 結局、アカウントSSHにキーを追加すればよい。ローカル .ssh/config に以下を貼る
+Host github github.com
+  HostName github.com
+  IdentityFile ~/.ssh/id_rsa # ここは環境に合わせて変える
+  User git
+
