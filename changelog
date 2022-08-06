@@ -1,4 +1,4 @@
-2022-08-06  Neumann <neumann@LAPTOP-VJRFGO2P>
+2022-08-06  ironoah
 
 	* create this file 
 	* 結局、アカウントSSHにキーを追加すればよい。ローカル .ssh/config に以下を貼る
